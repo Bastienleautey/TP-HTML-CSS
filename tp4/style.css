@@ -1,0 +1,201 @@
+/* --- BASE --- */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #454545;
+    font-size: 16px;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    line-height: 1.4;
+}
+
+/* --- LIENS --- */
+a {
+    color: #0077aa;
+}
+
+a:visited {
+    color: #941352;
+}
+
+/* --- BOUTONS EN HAUT À DROITE --- */
+.btn-contrast {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: #f0f0f0;
+    color: #000;
+    padding: 2px 5px;
+    font-size: 0.8em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn-invmode {
+    position: fixed;
+    top: 34px;
+    right: 10px;
+    background: #000;
+    color: #fff;
+    padding: 2px 5px;
+    font-size: 0.8em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* --- TITRES --- */
+.subtitle {
+    margin-top: -1em;
+}
+
+/* --- TEXTE EN COULEUR --- */
+.wrong {
+    color: #c0392b;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.mfw {
+    color: #730000;
+    cursor: not-allowed;
+}
+
+small {
+    font-size: 0.6em;
+}
+
+.fake-link-blue {
+    color: #00e;
+    cursor: not-allowed;
+}
+
+.fake-link-purple {
+    color: #551a8b;
+    cursor: not-allowed;
+}
+
+/* mot "colors" qui change de couleur */
+.colors {
+    animation: rainbow 0.5s infinite;
+    font-weight: bold;
+}
+
+@keyframes rainbow {
+    0%   { color: red; }
+    20%  { color: orange; }
+    40%  { color: yellow; }
+    60%  { color: green; }
+    80%  { color: blue; }
+    100% { color: purple; }
+}
+
+/* --- PETITS LOGOS DANS LES LISTES --- */
+ul li img {
+    height: 1em;
+    vertical-align: middle;
+}
+
+/* --- TEXTE EN POLICE MONOSPACE --- */
+.fakepre {
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+/* --- CARRÉS GRIS COLORÉS --- */
+.grey-444 {
+    color: #444;
+    font-weight: bold;
+}
+
+.grey-444:before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-color: #444;
+    margin-right: 0.3em;
+    vertical-align: middle;
+}
+
+.grey-454545 {
+    color: #454545;
+    font-weight: bold;
+}
+
+.grey-454545:before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-color: #454545;
+    margin-right: 0.3em;
+    vertical-align: middle;
+}
+
+/* --- IMAGE DU CHAT --- */
+.cat-figure {
+    float: left;
+    width: 40%;
+    margin: 0 1em 0 0;
+}
+
+.cat-figure img {
+    width: 100%;
+}
+
+.cat-figure figcaption {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.cat-section:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* --- BLOCKQUOTE --- */
+blockquote {
+    color: #456;
+    margin: 2em 0;
+    padding-left: 2em;
+    position: relative;
+}
+
+blockquote:before {
+    content: open-quote;
+    font-family: 'Times New Roman', serif;
+    color: #666;
+    font-size: 2.5em;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: -0.2em;
+}
+
+blockquote footer {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-top: 0.5em;
+}
+
+blockquote footer:before {
+    content: "- ";
+}
+
+/* --- IMAGE PAR DÉFAUT --- */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* --- LOGO KOPIMI --- */
+.kopimi {
+    display: block;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.kopimi-img {
+    height: 2em;
+}
