@@ -1,0 +1,83 @@
+/* --- LAYOUT GÉNÉRAL --- */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- HEADER --- */
+header {
+  text-align: center;
+}
+
+/* --- BANDEAU GRIS --- */
+main {
+  background-color: #e0e0e0;
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --- FOOTER --- */
+footer {
+  flex: 1;
+  text-align: center;
+}
+
+/* --- LE GRAND RECTANGLE --- */
+.rectangle {
+  width: 555px;
+  height: 333px;
+  background-color: white;
+  border: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* --- COLONNES ROUGE --- */
+.colonne {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+  height: 100%;
+  padding: 0;                     
+}
+
+.rouge {
+  width: 80px;
+  height: 80px;
+  background-color: red;
+}
+
+/* --- PETIT RECTANGLE DU MILIEU --- */
+.milieu {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid green;
+  height: 70px;
+  width: 700px;       
+}
+
+.blanc {
+  width: 55px;       
+  height: 100%;
+  background-color: white;
+  border-radius: 15%;
+}
+
+.vert {
+  width: 55px;
+  height: 100%;
+  background-color: green;
+    border-radius: 15%;
+}
+
+.demi-blanc {
+  width: 27.5px;      
+  height: 100%;
+  background-color: white;
+
+}
