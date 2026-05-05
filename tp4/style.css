@@ -14,6 +14,7 @@ a {
     color: #0077aa;
 }
 
+/* --- LIENS NON VISITES --- */
 a:visited {
     color: #941352;
 }
@@ -45,7 +46,7 @@ a:visited {
 
 /* --- TITRES --- */
 .subtitle {
-    margin-top: -1em;
+    margin-top: -1em; /* -1 pour être proche du titre princiapal */
 }
 
 /* --- TEXTE EN COULEUR --- */
@@ -61,9 +62,10 @@ a:visited {
 }
 
 small {
-    font-size: 0.6em;
+    font-size: 0.4em; /* pour le texte écris en tout petit*/
 }
 
+/* --- FAUX LIENS (non cliquable) --- */
 .fake-link-blue {
     color: #00e;
     cursor: not-allowed;
@@ -154,7 +156,7 @@ ul li img {
     clear: both;
 }
 
-/* --- BLOCKQUOTE --- */
+/* --- CITATIONS --- */
 blockquote {
     color: #456;
     margin: 2em 0;
